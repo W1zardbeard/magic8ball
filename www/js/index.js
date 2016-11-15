@@ -29,7 +29,7 @@ var _answers = [
 
 $( document ).ready(function() {
     
-    intel.xdk.device.setRotateOrientation("portrait");
+    
     
     
     

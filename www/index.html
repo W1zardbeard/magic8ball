@@ -5,6 +5,7 @@
 
 	<meta charset="UTF-8">
 	<title>Untitled Document</title>
+    <link rel="stylesheet" type="text/css" href="css/cssReset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -14,8 +15,15 @@
 </head>
 
 <body>
+    
+    <div id="spashScreen" data-role="page">
+        <p>Magic 8 Ball.</p>
+    </div>
+    
+    
+    
 
-    <div id="holder">
+    <div data-role="page" id="Page1">
         <label for="clear-demo">Enter question:</label>
         <input type="text" name="clear" id="clear-demo" value="" data-clear-btn="true">
         
