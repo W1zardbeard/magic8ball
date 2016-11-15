@@ -1,0 +1,51 @@
+{
+    "cordova-plugin-device": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Intel\\XDK\\xdk\\components\\server\\cordova\\cordova-plugins\\cordova-plugin-device"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Intel\\XDK\\xdk\\components\\server\\cordova\\cordova-plugins\\cordova-plugin-splashscreen"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Intel\\XDK\\xdk\\components\\server\\cordova\\cordova-plugins\\cordova-plugin-statusbar"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Intel\\XDK\\xdk\\components\\server\\cordova\\cordova-plugins\\cordova-plugin-dialogs"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-shake": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leecrossley/cordova-plugin-shake.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device-motion": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Intel\\XDK\\xdk\\components\\server\\cordova\\cordova-plugins\\cordova-plugin-device-motion"
+        },
+        "is_top_level": false,
+        "variables": {}
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "!name": "cordova-plugin-shake",
+    "!define": {
+        "!modules": {
+            "Shake": {
+                "startWatch": "fn(onShake: ?, _sensitivity: ?, onError: ?)",
+                "stopWatch": "fn()"
+            }
+        }
+    },
+    "!plugin-version": "0.5.4",
+    "shake": "!modules.Shake"
+}

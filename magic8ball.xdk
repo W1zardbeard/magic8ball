@@ -1,0 +1,252 @@
+{
+  "project": {
+    "creationData": {
+      "type": "Import",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "",
+      "projectGuid": "6c2b8184-a567-42fa-8617-7d7223ac6238",
+      "lastModifiedDate": 1479211527444,
+      "creationDate": 1479208715968
+    },
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "testDirectory": "test",
+    "projectTags": [
+      "XDK-disallow-legacy-whitelist"
+    ],
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
+    "projectDirectories": {
+      "xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      }
+    },
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "23",
+          "android-installLocation": "auto",
+          "android-signed": true,
+          "Orientation": "default"
+        },
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "magic8ball",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "signed_": true,
+        "crosswalkVersion_": "19",
+        "cordovaCLIVersion_": "6.2.0"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "deployment-target": "8.0",
+          "ios-configuration": "adhoc"
+        },
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "magic8ball",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.1",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "6.2.0"
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "magic8ball",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "6.2.0"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "magic8ball",
+        "appID_": "not.yet.specified",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.1"
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "WP81": {
+        "platform_": "wp81",
+        "runtime_": "Cordova 3.x",
+        "name_": "WP81",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "magic8ball",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "6.2.0"
+      }
+    },
+    "serviceMethods": [],
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "projectSettingsVersion": "3.0.0",
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [
+      {
+        "id": "cordova-plugin-dialogs",
+        "name": "Notification",
+        "version": "1.2.1",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-dialogs",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-dialogs",
+        "selectedState": "Included",
+        "checksum": "2948bc11",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {},
+        "description": "Cordova Notification Plugin",
+        "data": {},
+        "dependedBy": []
+      },
+      {
+        "id": "cordova-plugin-device-motion",
+        "name": "Device Motion",
+        "version": "1.2.1",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-device-motion",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-device-motion",
+        "selectedState": "Included",
+        "checksum": "7ee2b23d",
+        "dependsOn": [],
+        "topLevel": false,
+        "permissions": {},
+        "description": "Cordova Device Motion Plugin",
+        "data": {},
+        "dependedBy": [
+          "cordova-plugin-shake"
+        ]
+      },
+      {
+        "id": "cordova-plugin-shake",
+        "name": "Shake Gesture Detection",
+        "version": "0.5.4",
+        "originType": "repo",
+        "origin": "https://github.com/leecrossley/cordova-plugin-shake.git",
+        "gitref": "",
+        "subdir": ".",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-shake",
+        "selectedState": "Included",
+        "checksum": "42225d55",
+        "dependsOn": [
+          "cordova-plugin-device-motion"
+        ],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "author": "Lee Crossley (http://ilee.co.uk/)",
+        "permissions": {},
+        "description": "Cordova Plugin to detect when a physical device performs a shake gesture.",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      }
+    ]
+  }
+}
